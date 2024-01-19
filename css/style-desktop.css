@@ -1,0 +1,209 @@
+body {
+  width: 100%;
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: left;
+  background-color: black;
+  line-height: 1.5;
+}
+header img {
+  padding-left: 3rem;
+  width: 10%;
+  margin-block: 2rem;
+}
+nav {
+  text-align: center;
+  width: 100%;
+  background-image: url(../images/banner.jpg);
+  background-size: 100%;
+  background-position: 48% 0%;
+  background-color: lightgray;
+  font-family: "Montserrat", sans-serif;
+  padding-block: 20rem;
+}
+nav h1 {
+  text-align: center;
+  font-size: 260%;
+  color: #27a4cb;
+  font-weight: 700;
+  line-height: 2.2rem;
+  padding-top: 2rem;
+  margin-bottom: 2rem;
+}
+nav p {
+  padding-inline: 22rem;
+  font-size: 150%;
+  font-weight: 500;
+  text-align: center;
+}
+nav button {
+  width: 200px;
+  height: 60px;
+  background-color: #ef320e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 1rem;
+  font-weight: 700;
+  display: inline-block;
+  margin-top: 3rem;
+}
+nav button a {
+  font-size: 150%;
+  padding: 1rem;
+  text-decoration: none;
+  color: white;
+}
+section {
+  width: 100%;
+  margin-block: 2rem;
+  text-align: center;
+}
+section h2 {
+  text-align: left;
+  font-size: 110%;
+  color: #27a4cb;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+section p {
+  font-weight: 500;
+  text-align: left;
+  padding-right: 7rem;
+}
+
+div.father {
+  width: 95%;
+  margin-inline: auto;
+  margin-block: 8rem;
+}
+div.circle {
+  text-align: center;
+  display: inline-block;
+  width: 49%;
+}
+div.circle img {
+  width: 70%;
+  border-radius: 50%;
+  vertical-align: middle;
+}
+article {
+  display: inline-block;
+  width: 49%;
+  vertical-align: middle;
+}
+div.orange {
+  text-align: center;
+  font-family: "Montserrat", sans-serif;
+  padding: 7rem;
+  background-color: #ef320e;
+  color: white;
+  margin-bottom: 3rem;
+}
+div.orange h2 {
+  font-size: 200%;
+  font-weight: 700;
+  margin-top: 2rem;
+}
+
+div.orange p.o-fir {
+  font-weight: 200;
+  font-style: italic;
+  font-size: 170%;
+  margin-block: 1rem;
+}
+div.orange p.o-sec {
+  font-weight: 200;
+  font-size: 130%;
+  margin-top: 2rem;
+}
+div.orange p.o-tir {
+  font-size: 90%;
+}
+div.container {
+  text-align: center;
+}
+div.card {
+  display: inline-block;
+  text-align: center;
+  margin-block: 5rem;
+  margin-inline: 1.5rem;
+  width: 27%;
+  border: 2px solid #dee1e3;
+  border-radius: 3px;
+}
+div.card img {
+  width: 100%;
+  height: 350px;
+}
+
+div.card h2 {
+  text-align: center;
+  color: #27a4cb;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+  margin-top: 2rem;
+}
+
+div.card p {
+  font-size: 95%;
+  font-weight: 500;
+  margin-inline: 1rem;
+  text-align: center;
+  margin-bottom: 3rem;
+}
+footer {
+  padding: 3rem;
+  height: 300px;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: #25a2c3;
+  color: white;
+  margin-top: 1rem;
+  line-height: 2rem;
+}
+footer div.foot {
+  margin-inline: auto;
+  width: 30%;
+}
+footer h2 {
+  margin-block: 3rem;
+  font-size: 240%;
+  font-weight: 600;
+}
+
+footer p {
+  font-size: 100%;
+  font-weight: 200;
+}
+footer p a {
+  color: white;
+}
+footer p.no {
+  text-decoration: none;
+}
+footer aside {
+  display: inline-block;
+  text-align: left;
+  margin-bottom: 2rem;
+}
+footer span {
+  margin-inline: auto;
+  width: 50%;
+  display: block;
+  font-weight: 200;
+  font-size: 80%;
+  border-top: 1px solid;
+  padding-top: 1.5rem;
+  border-bottom: 1.5rem;
+}
+footer span a:visited {
+  color: #c8e7f0;
+}

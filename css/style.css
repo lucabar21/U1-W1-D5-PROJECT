@@ -1,0 +1,164 @@
+body {
+  width: 360px;
+  font-family: "Open Sans", sans-serif;
+  color: #393d41;
+  font-size: 1.2rem;
+  line-height: 1.65;
+  box-sizing: border-box;
+}
+
+header {
+  text-align: center;
+  background-color: black;
+  line-height: 1.5;
+}
+header img {
+  width: 40%;
+  margin-block: 1.5rem;
+}
+nav {
+  text-align: center;
+  width: 100%;
+  height: 340px;
+  background-image: url(../images/banner.jpg);
+  background-size: 170%;
+  background-position: 48% 0%;
+  background-color: lightgray;
+  font-family: "Montserrat", sans-serif;
+}
+nav h1 {
+  text-align: center;
+  font-size: 180%;
+  color: #27a4cb;
+  font-weight: 700;
+  line-height: 2.2rem;
+  padding-top: 2rem;
+  margin-bottom: 1rem;
+}
+nav p {
+  font-weight: 500;
+  margin-inline: 1rem;
+  text-align: center;
+}
+nav button {
+  background-color: #ef320e;
+  border: none;
+  border-radius: 5px;
+  color: white;
+  padding: 1rem;
+  font-weight: 700;
+  display: inline-block;
+  margin-block: 1rem;
+}
+nav button a {
+  text-decoration: none;
+  color: white;
+}
+section {
+  width: 100%;
+  margin-block: 2rem;
+  text-align: center;
+}
+section h2 {
+  text-align: center;
+  font-size: 110%;
+  color: #27a4cb;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+section p {
+  font-weight: 500;
+  margin-inline: 1rem;
+  text-align: center;
+}
+
+div {
+  text-align: center;
+}
+div.circle img {
+  width: 80%;
+  border-radius: 50%;
+}
+div.orange {
+  font-family: "Montserrat", sans-serif;
+  padding: 1rem;
+  background-color: #ef320e;
+  color: white;
+  margin-bottom: 1rem;
+}
+div.orange h2 {
+  font-size: 140%;
+  font-weight: 700;
+  margin-bottom: 1rem;
+  margin-top: 2rem;
+}
+
+div.orange p.o-fir {
+  font-style: italic;
+  font-size: 70%;
+  margin-block: 1rem;
+}
+div.orange p.o-tir {
+  font-size: 60%;
+  margin-bottom: 1rem;
+}
+div.card {
+  display: inline-block;
+  text-align: center;
+  margin-block: 1rem;
+  width: 90%;
+  border: 1px solid #dee1e3;
+  border-radius: 3px;
+}
+div.card img {
+  width: 100%;
+}
+
+div.card h2 {
+  text-align: center;
+  color: #27a4cb;
+  font-weight: 700;
+  font-family: "Montserrat", sans-serif;
+}
+
+div.card p {
+  font-size: 95%;
+  font-weight: 500;
+  margin-inline: 1rem;
+  text-align: center;
+  margin-bottom: 1rem;
+}
+footer {
+  padding: 2rem;
+  font-family: "Montserrat", sans-serif;
+  text-align: center;
+  background-color: #25a2c3;
+  color: white;
+  margin-top: 2rem;
+}
+footer h2 {
+  margin-block: 1rem;
+  font-size: 140%;
+  font-weight: 700;
+}
+
+footer p {
+  font-size: 80%;
+}
+footer a {
+  color: white;
+}
+
+footer p.no {
+  text-decoration: none;
+}
+footer aside {
+  margin-bottom: 2rem;
+}
+footer span {
+  font-size: 65%;
+  border-top: 1px solid;
+  padding-top: 1rem;
+  border-bottom: 1.5rem;
+}
